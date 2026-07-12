@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-so@8ucnvdyw0g(53m8ggzje_)22m3m(z4z-lox3xxos*dd8(bx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["digitaltwin-backend-nkdl.onrender.com]
+ALLOWED_HOSTS = ["digitaltwin-backend-nkdl.onrender.com"]
 
 
 # Application definition
@@ -138,5 +138,5 @@ STATIC_URL = 'static/'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://digital-twin-124.netlify.app"
+    "https://digital-twin-124.netlify.app",
 ]
